@@ -74,28 +74,47 @@
 # cars.sort(reverse=True)
 # print(cars)
 
-a=5
-b=7
-print("Обратите внимание сейчас будет пояснение по знакам в калькулятуре")
-print('Знак сложения +')
-print('Знак вычетания -')
-print('Знак умножения *')
-print('Знак деления :')
-input=input("введите знак ")
-if input=="+" :
-    print("Ответ : ", a+b)
-elif input=="-" :
-    print("Ответ : ", a-b)
-elif input=="*" :
-    print("Ответ : ", a*b)
-elif input==":" :
-    print("Ответ : ", a/b)
-elif input==int:
-    print("Введите знак,а не число")
-else:
-    print("У вас ошибка при вводе,перезапустите программу ")
+# a=5
+# b=7
+# print("Обратите внимание сейчас будет пояснение по знакам в калькулятуре")
+# print('Знак сложения +')
+# print('Знак вычетания -')
+# print('Знак умножения *')
+# print('Знак деления :')
+# input=input("введите знак ")
+# if input=="+" :
+#     print("Ответ : ", a+b)
+# elif input=="-" :
+#     print("Ответ : ", a-b)
+# elif input=="*" :
+#     print("Ответ : ", a*b)
+# elif input==":" :
+#     print("Ответ : ", a/b)
+# elif input==int:
+#     print("Введите знак,а не число")
+# else:
+#     print("У вас ошибка при вводе,перезапустите программу ")
 
 
+shopping_list=[]
+shopping_list.append('яблоко')
+shopping_list.append('молоко')
+shopping_list.append('хлеб')
+shopping_list.append('яйца')
+shopping_list.append('сок')
+print(shopping_list)
+i=0
+while i < len(shopping_list):
+     print(shopping_list[i])
+     i+=1
+del shopping_list[1]
+shopping_list[0]="банан"
+print(shopping_list)
+z=0
+while z < len(shopping_list):
+     z+=1
+
+print(z)
 
 
 
